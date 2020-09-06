@@ -109,7 +109,7 @@ function Jumbooo() {
  <p>
  <Navbar.Brand style={{color:'#FFFFFF'}} > KALAR KAHAR ROAD,DHADAKOT</Navbar.Brand>
  </p>
- <p style={{color:'white'}}>Design by  HAMMAD ASHRAF </p>
+
  <Navbar.Brand  style={{color:'#FFFFFF',display:'flex',justifyContent:'center' }} >  
  <Avatar alt="Cindy Baker" src={Sero} />
  <Avatar alt="Cindy Baker" src={tero} />
@@ -118,7 +118,7 @@ function Jumbooo() {
  
  </Navbar.Brand>
   
- 
+ <p style={{color:'white'}}>Design by  HAMMAD ASHRAF </p>
 
 </Jumbotron>
         </div>
