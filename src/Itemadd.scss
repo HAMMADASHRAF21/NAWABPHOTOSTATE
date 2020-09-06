@@ -1,0 +1,43 @@
+.itemadd
+{
+
+    padding: 20px;
+  
+  
+   width: 50%;
+   background-color: #FAFAF8;
+ border:  1 px solid white;
+}
+.itemadd__img
+{
+ padding: 20px;
+     
+}
+.itemadd__right{
+justify-content: space-evenly;
+}
+.itemadd__left{
+    display:flex;
+    flex-direction: column;
+    color:darkblue;
+    justify-content: space-evenly;
+    border: 1px solid white; 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+  .item{
+      padding: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .itemadd {
+        border:1px solid #eee;
+        width:100%;
+    }
+  }
+body{
+    border-top:1 px solid rgb(241, 165, 165);
+    background-color:white;
+}

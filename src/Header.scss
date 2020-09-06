@@ -1,0 +1,28 @@
+:root {
+    --mainColor: #CDC5BF;
+  }
+  .LINK {
+    background:
+       linear-gradient(
+         to right,
+         var(--mainColor) 0%,
+         var(--mainColor) 5px,
+         transparent 5px
+       );
+      background-repeat: repeat-x;
+      background-size: 100%;
+    color: #000;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: "Gotham Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .LINK:hover {
+    background:
+       linear-gradient(
+         to right,
+         var(--mainColor) 0%,
+         var(--mainColor) 5px,
+         transparent
+       );
+  }
