@@ -63,7 +63,7 @@ function Home() {
     </Col>
     <Col  sm={10} lg={8} >
      
-    <h4 style={{textShadow:' 0 0 10px yellow',fontWeight:'100',fontStyle:'normal',fontFamily:'pragmatica, sans-serif',color:'#21364B!important'}}>Frames,Printing,Scanning,Panaflex,Web site,Wedding Cards,Visiting Cards,PhotoState,Mug Printing,Cap Printing,Shirt Printing,Wedding Videos,Festival Videos,Online Video Conference,Indian Album and much more...</h4>  
+    <p style={{textShadow:' 0 0 10px yellow',fontWeight:'100',fontSize:'20px',fontStyle:'normal',fontFamily:'pragmatica, sans-serif',lineHeight:'36px',color:'#21364B!important'}}>Frames,Printing,Scanning,Panaflex,Web site,Wedding Cards,Visiting Cards,PhotoState,Mug Printing,Cap Printing,Shirt Printing,Wedding Videos,Festival Videos,Online Video Conference,Indian Album and much more...</p>  
     </Col>
     <Col sm={1} lg={2}>
  
