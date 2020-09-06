@@ -6,7 +6,10 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import {Container , Row, Col} from 'react-bootstrap';
 import {Carousel} from '3d-react-carousal';
 import Grid from '@material-ui/core/Grid';
-
+import Sero from '../src/sero.jpeg'
+import mero from '../src/mero.jpeg'
+import tero from '../src/tero.jpeg'
+import hero from '../src/hero.jpeg'
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { makeStyles } from '@material-ui/core/styles';
@@ -99,15 +102,24 @@ function Jumbooo() {
        </Container>
 
 
-                   <Jumbotron style={{backgroundColor:'#277DDE',justifyContent:'center',textAlign:'center',borderRadius:'inherit'}} className="mb-0" >
+                   <Jumbotron style={{backgroundColor:'#277DDE',paddingBottom:'5px',justifyContent:'center',textAlign:'center',borderRadius:'inherit'}} className="mb-0" >
  
  <h1><Navbar.Brand style={{color:'#FFFFFF'}} >  NAWAB PHOTOSTUDIO  ™</Navbar.Brand></h1>
  
  <p>
  <Navbar.Brand style={{color:'#FFFFFF'}} > KALAR KAHAR ROAD,DHADAKOT</Navbar.Brand>
  </p>
- <p style={{color:'white'}}>Design by</p>
- <Navbar.Brand  style={{color:'#FFFFFF'}} >  HAMMAD ASHRAF</Navbar.Brand>
+ <p style={{color:'white'}}>Design by  HAMMAD ASHRAF </p>
+ <Navbar.Brand  style={{color:'#FFFFFF',display:'flex',justifyContent:'center' }} >  
+ <Avatar alt="Cindy Baker" src={Sero} />
+ <Avatar alt="Cindy Baker" src={tero} />
+ <Avatar alt="Cindy Baker" src={hero} />
+ <Avatar alt="Cindy Baker" src={mero} />
+ 
+ </Navbar.Brand>
+  
+ 
+
 </Jumbotron>
         </div>
     )
